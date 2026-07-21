@@ -91,9 +91,9 @@ Build it in that order, testing after each piece. Do not write the whole thing a
 
 **Two strings that look identical but aren't equal**: compare text with `.equals()`, never with `==`. This compiles fine and fails silently, which makes it the hardest bug on this list to find.
 
-**A question in your quiz gets skipped** — you mixed `nextInt()` and `nextLine()` on the same Scanner. `nextInt()` leaves the newline behind and the next `nextLine()` consumes it. Read everything with `nextLine()` and convert, or don't mix the two.
+**A question in your quiz gets skipped**: you mixed `nextInt()` and `nextLine()` on the same Scanner. `nextInt()` leaves the newline behind and the next `nextLine()` consumes it. Read everything with `nextLine()` and convert, or don't mix the two.
 
-**`ArrayIndexOutOfBoundsException`** — indexing starts at 0, so the last valid index is `length - 1`.
+**`ArrayIndexOutOfBoundsException`**: indexing starts at 0, so the last valid index is `length - 1`.
 
 ## Getting help
 
