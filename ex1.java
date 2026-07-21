@@ -1,13 +1,16 @@
-import java.util.Scanner;
-
 public class Ex1 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        String city = "Oshawa";
+        int population = 175000;
+        double averageTempC = 7.5;
+        boolean isCoastal = false;
 
-        System.out.print("Enter your first name: ");
+        System.out.println("City: " + city);
+        System.out.println("Population: " + population);
 
-        String name = input.next();
+        System.out.println("Population next year: " + (population + 2000));
 
-        input.close();
+        System.out.printf("Average temperature: %.1f C%n$", averageTempC);
+        System.out.println("On the coast? " + isCoastal);
     }
 }
