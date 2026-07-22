@@ -109,6 +109,6 @@ Bring your code and the exact error message. "It doesn't work" is harder to help
 
 Written by Benjamin Fedoruk, Subject Specialist in Mathematics and Computer Science, Teaching and Learning Centre, Ontario Tech University.
 
-[Contact: benjamin.fedoruk@ontariotechu.ca]
+benjamin.fedoruk@ontariotechu.ca
 
-Last updated: [July 21, 2026]
+Last updated: July 21, 2026
